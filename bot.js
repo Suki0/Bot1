@@ -22,7 +22,7 @@ bot.on('message', message =>{
 }
 
   if(message.content === "whos irrelevant?"){
-    message.channel.reply("ALONZO IS!")
+    message.channel.send("ALONZO IS!")
   }
 
 
