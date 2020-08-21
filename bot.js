@@ -92,6 +92,14 @@ if(message.content === "whos irrelevant?"){
 }
 })
 /// bot game commands
+bot.on("message", message=>{
+  if(message.content === `${prefix}Bal`){
+    message.channel.reply("irs took yo shit")
+  }
+  if(message.content === `${prefix}Work`){
+    message.channel.reply("You robbed a 5 year old and stole her teddy bear have 2000$")
+  }
+})
 
 
 
