@@ -15,12 +15,25 @@ bot.on("ready",  async() =>{
     }
 });
 
+//chat commands
 bot.on('message', message =>{
   if(message.content === `${prefix}a`){
-    message.channel.send(" nigger")
+    message.channel.send(" y")
+}
 
+  if(message.content === "whos irrelevant?"){
+    message.channel.reply("ALONZO IS!")
   }
+
+
 })
+
+//embed commands
+
+
+
+
+//game commands
 
 
 
