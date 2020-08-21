@@ -89,12 +89,13 @@ if(message.content === prefix + 'shit'){
   if(message.content === prefix + "work"){
     message.channel.send("You robbed jesus the irs is coming for you, though have 200$")
   }
-  //if(message.content  === prefix + " ", "", "  "){
-    //message.channel.send("CMON M8 FUCKING SAY SOMETHING")/
-//}
 
 if(message.content === "whos irrelevant?"){
   message.channel.send("alonzo is!")}
+
+  if(mesage.content === "space"){
+    message.channel.send(<@639816265669672980>')
+  }
 })
 /// bot game commands
 
@@ -129,9 +130,7 @@ bot.on("message",  message => {
     if(message.content == prefix + 'da'){
         message.channel.send(message.author.displayAvatarURL());
     }
-    if(message.content == "whos a roach?"){
-      message.channel.send("<@639816265669672980> is!")
-    }
+
 
 
 });
