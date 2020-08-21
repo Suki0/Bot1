@@ -26,7 +26,7 @@ bot.on('message', message =>{
   }
 
 
-})
+});
 
 //embed commands
 
