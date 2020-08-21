@@ -93,8 +93,7 @@ if(message.content === prefix + 'shit'){
 if(message.content === "whos irrelevant?"){
   message.channel.send("alonzo is!")}
 
-  if(mesage.content === "space"){
-    message.channel.send('<@639816265669672980>')
+
   }
 })
 /// bot game commands
@@ -116,7 +115,8 @@ bot.on('message', message =>{
 
     const embed2 = new Discord.MessageEmbed()
     .setAuthor(message.member)
-    .setDescription(".bal to check balance")
+    .setDescription("hi")
+    .setTitle("NIGGA")
     .setColor(0xff0000)
     message.channel.send(embed2)
 
