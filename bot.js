@@ -21,15 +21,8 @@ bot.on('message', message =>{
   if(message.content === `${prefix}a`){
     message.channel.send(" y")
 }
-
-  if(message.content === "whos irrelevant?"){
-    message.channel.send("ALONZO IS!")
-  }
-  if(message.content === "spacecadet"){
-    message.channel.send("is a big fat faggot roach")
-  }
-if(message.content === "fried chicken"){
-  message.channel.send("NIGGA FOOD")
+if(message.content === "Popeyes"){
+  message.channel.send("niggafood")
 }
 
 });
