@@ -20,6 +20,10 @@ bot.on("ready",  async() =>{
 bot.on('message', message =>{
   if(message.content === `${prefix}a`){
     message.channel.send(" y")}
+
+  if(message.content === "space"){
+    message.channel.send("cadet")
+  }
 });
 
 //embed commands
