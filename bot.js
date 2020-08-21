@@ -88,8 +88,7 @@ if(message.content === "whos irrelevant?"){
   message.channel.send("alonzo is!")
 }
 
-if(message.content === "s"){
-  message.channel.send("s")
+
 }
 })
 /// bot game commands
