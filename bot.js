@@ -19,12 +19,7 @@ bot.on("ready",  async() =>{
 //chat commands
 bot.on('message', message =>{
   if(message.content === `${prefix}a`){
-    message.channel.send(" y")
-}
-if(message.content === "Popeyes"){
-  message.channel.send("niggafood")
-}
-
+    message.channel.send(" y")}
 });
 
 //embed commands
