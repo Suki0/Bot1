@@ -80,6 +80,14 @@ if(message.content === prefix + 'shit'){
   if(message.content === "whos an idiot"){
     message.channel.send("aven the fucking moron")
   }
+
+  if(message.content === prefix + "bal"){
+    message.channel.send("The irs took all your money")
+
+  }
+  if(message.content === prefix + "work"){
+    message.channel.send("You robbed jesus the irs is coming for you, though have 200$")
+  }
   //if(message.content  === prefix + " ", "", "  "){
     //message.channel.send("CMON M8 FUCKING SAY SOMETHING")/
 //}
@@ -89,17 +97,15 @@ if(message.content === "whos irrelevant?"){
 }
 
 
+
+
 }
+
+
+if message.
 })
 /// bot game commands
-bot.on("message", message=>{
-  if(message.content === `${prefix}Bal`){
-    message.channel.reply("irs took yo shit")
-  }
-  if(message.content === `${prefix}Work`){
-    message.channel.reply("You robbed a 5 year old and stole her teddy bear have 2000$")
-  }
-})
+
 
 
 
