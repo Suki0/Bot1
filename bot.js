@@ -93,16 +93,7 @@ if(message.content === prefix + 'shit'){
 //}
 
 if(message.content === "whos irrelevant?"){
-  message.channel.send("alonzo is!")
-}
-
-
-
-
-}
-
-
-if message.
+  message.channel.send("alonzo is!")}
 })
 /// bot game commands
 
