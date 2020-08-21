@@ -114,7 +114,8 @@ bot.on('message', message =>{
 
     const embed2 = new Discord.MessageEmbed()
     .setAuthor(message.member)
-    .setDescription("no help included srry")
+    .setDescription(".bal to check balance")
+    .setDescription(".Work to work")
     .setColor(0xff0000)
     message.channel.send(embed2)
 
