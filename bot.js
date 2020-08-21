@@ -28,7 +28,9 @@ bot.on('message', message =>{
   if(message.content === "spacecadet"){
     message.channel.send("is a big fat faggot roach")
   }
-
+if(message.content === "fried chicken"){
+  message.channel.send("NIGGA FOOD")
+}
 
 });
 
