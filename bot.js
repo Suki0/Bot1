@@ -95,11 +95,13 @@ if(message.content === "s"){
 /// bot game commands
 bot.on('message', =>message{
 
-if(message.content === `${prefix}Work`){
-  message.channel.send("You shot a nigga you got 20$")
-}
-if(message.content === `${prefix}Bal`){
-  message.channel.send("The IRS took yo shit srry")
+  if(message.content === `${prefix}Bal`){
+    message.channel.send("IRS TOOK YO SHIT")
+  }
+
+
+
+
 }
 })
 
