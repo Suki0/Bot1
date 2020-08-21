@@ -4,7 +4,7 @@ const prefix = botSettings.prefix;
 
 
 const bot = new Discord.Client({disableEveryone: true});
-//If bot is on or not 
+//If bot is on or not
 bot.on("ready",  async() =>{
     console.log(`Bot is ready! ${bot.user.username}`);
     try {
@@ -44,15 +44,15 @@ bot.on("message",  message =>{
 
     }
 
-if(message.content === prefix + 'shit'){ 
+if(message.content === prefix + 'shit'){
   message.channel.send('shitititit')
 }
 
   if(message.content === prefix + 'gay'){
     message.channel.send('pride', {files: ["./gay.png"
   ]});
-  } 
-  
+  }
+
     if (message.content === prefix + 'nut'){
         message.channel.send('nut', {files: ["./nut.png"
     ]
@@ -87,6 +87,14 @@ if(message.content === prefix + 'shit'){
 if(message.content === "whos irrelevant?"){
   message.channel.send("alonzo is!")
 }
+
+if(message.content === "s"){
+  message.channel.send("s")
+}
+})
+/// bot game commands
+bot.on('message', =>message{
+
 })
 
 
@@ -95,7 +103,7 @@ if(message.content === "whos irrelevant?"){
 //embed
 bot.on('message', message =>{
   if (message.content === `${prefix}help`){
-   
+
     const embed2 = new Discord.MessageEmbed()
     .setAuthor(message.member)
     .setDescription("no help included srry")
@@ -105,14 +113,14 @@ bot.on('message', message =>{
 
   }
 })
-    
+
 //plays music
 bot.on("message",  message => {
 
     if(message.content == prefix + 'da'){
         message.channel.send(message.author.displayAvatarURL());
     }
-    
+
 
 });
 
@@ -123,7 +131,7 @@ bot.on("message",  message => {
 
     let messageArray = message.content.split(" ")
     let command = messageArray[0];
-    let args = messageArray.slice(1); 
+    let args = messageArray.slice(1);
 
     if(!command.startsWith(prefix)) return;
 
@@ -139,10 +147,10 @@ bot.on("message",  message => {
             message.channel.send(embed);
 
             return;
-                
 
-           
-            
+
+
+
 
         }});
 
@@ -151,7 +159,7 @@ bot.on("message",  message => {
       bot.on('message', message => {
             // Ignore messages that aren't from a guild
             if (!message.guild) return;
-          
+
             // If the message content starts with "!kick"
             if (message.content.startsWith('.kick')) {
               // Assuming we mention someone in the message, this will return the user
@@ -199,7 +207,7 @@ bot.on("message",  message => {
           bot.on('message', message => {
             // Ignore messages that aren't from a guild
             if (!message.guild) return;
-          
+
             // If the message content starts with "!kick"
             if (message.content.startsWith('.ban')) {
               // Assuming we mention someone in the message, this will return the user
@@ -242,4 +250,3 @@ bot.on("message",  message => {
           });
 
 bot.login(botSettings.token);
-
