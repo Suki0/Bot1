@@ -1,5 +1,6 @@
 const botSettings = require("./botSettings.json");
 const Discord = require("discord.js");
+const Sequelize = require("sequelize")
 const prefix = botSettings.prefix;
 
 
@@ -23,6 +24,9 @@ bot.on('message', message =>{
 
   if(message.content === "whos irrelevant?"){
     message.channel.send("ALONZO IS!")
+  }
+  if(message.content === "spacecadet"){
+    message.channel.send("is a big fat faggot roach")
   }
 
 
