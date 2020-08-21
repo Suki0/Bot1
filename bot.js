@@ -94,7 +94,7 @@ if(message.content === "whos irrelevant?"){
   message.channel.send("alonzo is!")}
 
   if(mesage.content === "space"){
-    message.channel.send(<@639816265669672980>')
+    message.channel.send('<@639816265669672980>')
   }
 })
 /// bot game commands
