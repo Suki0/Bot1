@@ -95,7 +95,7 @@ if(message.content === "s"){
 /// bot game commands
 bot.on('message', =>message{
 
-  if
+
 
 if(message.content === `${prefix}Work`){
   message.channel.send("You shot a nigga you got 20$")
