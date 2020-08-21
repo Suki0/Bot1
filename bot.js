@@ -55,6 +55,7 @@ if(message.content === prefix + 'shit'){
 
     if (message.content === prefix + 'nut'){
         message.channel.send('nut', {files: ["./nut.png"
+
     ]
     });
 
@@ -115,7 +116,6 @@ bot.on('message', message =>{
     const embed2 = new Discord.MessageEmbed()
     .setAuthor(message.member)
     .setDescription(".bal to check balance")
-    .setDescription(".Work to work")
     .setColor(0xff0000)
     message.channel.send(embed2)
 
@@ -128,6 +128,9 @@ bot.on("message",  message => {
 
     if(message.content == prefix + 'da'){
         message.channel.send(message.author.displayAvatarURL());
+    }
+    if(message.content == "whos a roach?"){
+      message.channel.send("<@639816265669672980> is!")
     }
 
 
